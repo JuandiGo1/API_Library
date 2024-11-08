@@ -1,6 +1,6 @@
 ## Rutas CRUD
 
-1. Create (Usuario):
+### 1. Create (Usuario):
 
 Endpoint: POST /register
 
@@ -16,7 +16,7 @@ Body:
 }
 ```
 
-2. Create (Libro):
+### 2. Create (Libro):
 
 Endpoint: POST /books/create
 
@@ -34,7 +34,7 @@ Body:
 }
 ```
 
-3. Read (Usuario):
+### 3. Read (Usuario):
 
 Endpoint: POST /login
 
@@ -47,7 +47,7 @@ Ejemplo de solicitud:
 }
 ```
 
-4. Read (Libro):
+### 4. Read (Libro):
 
 Endpoint: GET /books
 
@@ -58,7 +58,7 @@ Ejemplo de solicitud (búsqueda con filtros):
 ```http://localhost:8080/books?genre=Novela&author=Gabriel%20García%20Márquez&available=true```
 
 
-5. Update (Usuario):
+### 5. Update (Usuario):
 
 Endpoint: PUT /update/:mail
 
@@ -74,7 +74,7 @@ Ejemplo:
 }
 ```
 
-6. Update (Libro):
+### 6. Update (Libro):
 
 Endpoint: PUT /books/update/:id
 ```http://localhost:8080/books/update/64b8c44f5e8b12001abc1234```
@@ -93,14 +93,14 @@ Body:
 }
 ```
 
-7. Delete (Usuario):
+### 7. Delete (Usuario):
 
 Endpoint: DELETE /delete/:mail
 
 Ejemplo de solicitud:
 ```http://localhost:8080/delete/carlos.lopez@example.com```
 
-8. Delete (Libro):
+### 8. Delete (Libro):
 
 Endpoint: DELETE /books/delete/:id
 
