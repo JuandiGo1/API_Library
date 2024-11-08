@@ -1,8 +1,11 @@
 Rutas CRUD
 
 1. Create (Usuario):
+
 Endpoint: POST /register
+
 Ejemplo de solicitud:
+
 ```
 Body:
 {
@@ -14,8 +17,11 @@ Body:
 ```
 
 2. Create (Libro):
+
 Endpoint: POST /books/create
+
 Ejemplo:
+
 ```
 Body:
 {
@@ -27,17 +33,24 @@ Body:
   "number_copies": 5
 }
 ```
+
 3. Read (Usuario):
+
 Endpoint: POST /login
+
 Ejemplo de solicitud:
+
 ```
 {
   "email": "laura.martinez@example.com",
   "password": "passwordSeguro123",
 }
 ```
+
 4. Read (Libro):
+
 Endpoint: GET /books
+
 Ejemplo de solicitud (búsqueda por ID):
 ```http://localhost:8080/books?id=64b8c44f5e8b12001abc1234```
 
@@ -46,9 +59,12 @@ Ejemplo de solicitud (búsqueda con filtros):
 
 
 5. Update (Usuario):
+
 Endpoint: PUT /update/:mail
+
 Ejemplo:
 ```http://localhost:8080/update/carlos.lopez@example.com```
+
 
 ```
 {
@@ -57,9 +73,12 @@ Ejemplo:
   "role": "user"
 }
 ```
+
 6. Update (Libro):
+
 Endpoint: PUT /books/update/:id
 ```http://localhost:8080/books/update/64b8c44f5e8b12001abc1234```
+
 
 ```
 Body:
@@ -75,12 +94,16 @@ Body:
 ```
 
 7. Delete (Usuario):
+
 Endpoint: DELETE /delete/:mail
+
 Ejemplo de solicitud:
 ```http://localhost:8080/delete/carlos.lopez@example.com```
 
 8. Delete (Libro):
+
 Endpoint: DELETE /books/delete/:id
+
 Ejemplo:
 ```http://localhost:8080/api/books/delete/64b8c44f5e8b12001abc1234```
 
