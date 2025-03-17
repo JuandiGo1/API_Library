@@ -1,4 +1,6 @@
 # Library API
+![Untitled (1920 x 1080 px)](https://github.com/user-attachments/assets/533211ff-8a37-443d-aa89-8611dddad1e9)
+
 
 Este proyecto es un servidor web desarrollado con Express.js que funciona como un sistema de gestión para una biblioteca. Este servidor se conecta a una base de datos MongoDB y ofrece una serie de rutas API para administrar usuarios, libros, reservas y permisos.  Además, utiliza JWT para la autenticación, lo que agrega una capa de seguridad al sistema. Este proyecto fue el primero de dos proyectos finales para el curso de Backend. 
 
